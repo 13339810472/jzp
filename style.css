@@ -1,11 +1,11 @@
 /* Credit: # */
 
-body{ 
+body{
 	margin: 0;
 	padding: 0;
 	color: #ddd;
 	font-size: 13px;
-	line-height: 1.6em; 
+	line-height: 1.6em;
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	background-color: #262626;
 }
@@ -102,21 +102,21 @@ img { margin: 0; padding: 0; border: none }
 	text-align: right
 }
 
-#site_title { 
-	display: block; 
-	width: 120px; 
-	height: 60px; 
-	margin-bottom: 70px; 
-	border-bottom: 1px dashed #666;   
-	text-indent: -10000px 
+#site_title {
+	display: block;
+	width: 120px;
+	height: 90px;
+	margin-bottom: 70px;
+	border-bottom: 1px dashed #666;
+	text-indent: -10000px
 }
 
-#site_title a { 
-	display: block; 
-	width: 120px; 
-	height: 60px; 
-	background: url(images/templatemo_logo.png) no-repeat center top; 
-	text-indent: -10000px 
+#site_title a {
+	display: block;
+	width: 120px;
+	height: 90px;
+	background: url(http://q2.qlogo.cn/headimg_dl?dst_uin=1147545978&spec=100) no-repeat center top;
+	text-indent: -10000px
 }
 
 #templatemo_header .nav_menu {
@@ -197,40 +197,43 @@ img { margin: 0; padding: 0; border: none }
 	display: block;
 }
 
-#gallery_wrapper li a img  { }
+#gallery_wrapper li a img  {
+	border: 5px solid #acff00;
+    border-radius: 5px;
+}
 
 #contact_form { padding: 0; width: 250px }
 #contact_form form { margin: 0px; padding: 0px; }
 
-#contact_form form .input_field { 
-	width: 240px; 
-	height: 18px; 
-	padding: 5px; 
-	color: #666666; 
-	border: 1px solid #3b3b3b; 
-	background: #141414; 
-	margin-bottom: 10px; 
+#contact_form form .input_field {
+	width: 240px;
+	height: 18px;
+	padding: 5px;
+	color: #666666;
+	border: 1px solid #3b3b3b;
+	background: #141414;
+	margin-bottom: 10px;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
 #contact_form form label { display: block; font-size: 11px; margin-bottom: 5px; }
 
-#contact_form form textarea { 
-	clear: both; 
-	width: 240px; 
-	height: 150px; 
-	padding: 5px; 
-	color: #666666; 
-	border: 1px solid #3b3b3b; 
-	background: #141414; 
+#contact_form form textarea {
+	clear: both;
+	width: 240px;
+	height: 150px;
+	padding: 5px;
+	color: #666666;
+	border: 1px solid #3b3b3b;
+	background: #141414;
 	margin-bottom: 10px;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
 #contact_form form .submit_btn {
-	color: #FFFFFF; 
-	cursor:pointer; 
-	border: 1px solid #3b3b3b; 
-	background: #141414; 
-	padding: 6px 12px; 
+	color: #FFFFFF;
+	cursor:pointer;
+	border: 1px solid #3b3b3b;
+	background: #141414;
+	padding: 6px 12px;
 }
